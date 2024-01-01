@@ -1,0 +1,49 @@
+#scrollToTopButton {
+  position: fixed;
+  z-index: 35;
+  bottom: 62px;
+  right: 20px;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: var(--light-green);
+  border: none;
+  border-radius: 8px;
+}
+@media only screen and (min-width: 375px) {
+  #scrollToTopButton {
+    right: calc((100vw - 335px) / 2);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #scrollToTopButton {
+    width: 68px;
+    height: 68px;
+    bottom: 32px;
+    right: calc((100vw - 704px) / 2);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #scrollToTopButton {
+    bottom: 32px;
+    right: calc((100vw - 1216px) / 2);
+  }
+}
+
+.scroll-icon {
+  fill: currentColor;
+}
+@media only screen and (min-width: 768px) {
+  .scroll-icon {
+    width: 16px;
+    height: 30px;
+  }
+}

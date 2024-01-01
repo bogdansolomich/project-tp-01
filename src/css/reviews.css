@@ -1,0 +1,305 @@
+.adventures {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures {
+    padding-top: 50px;
+    padding-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .adventures {
+    padding-top: 82px;
+    padding-bottom: 33px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .adventures-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+}
+
+.reviews-container {
+  position: relative;
+}
+
+.img-adventures {
+  margin: 0 auto;
+  width: 56px;
+}
+
+.adventures-title {
+  font-family: DMSans-tp;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin: 0;
+  margin-bottom: 24px;
+  max-width: 497px;
+}
+
+.button-box {
+  width: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button-reviews {
+  width: 13px;
+  height: 13px;
+  background-color: var(--blue);
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.button-reviews:hover,
+.button-reviews:focus {
+  background-color: #88b3b9;
+}
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  .adventures-title {
+    max-width: 335px;
+  }
+  .adventures-text {
+    max-width: 335px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .adventures-title {
+    font-size: 32px;
+    width: 497px;
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .adventures-title {
+    margin: 0;
+  }
+}
+
+.adventure-title-gray {
+  font-family: DMSans-Italic-tp;
+  background: var(--linear-green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.adventures-title {
+  color: var(--white);
+  font-style: normal;
+}
+
+@media only screen and (min-width: 375px) {
+  .adventures-title {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures-title {
+    width: 497px;
+  }
+}
+
+.adventures-text {
+  color: var(--white);
+  font-family: DMSans-tp;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.32px;
+  max-width: 273px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 375px) {
+  .adventures-text {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures-text {
+    font-size: 16px;
+    width: 274px;
+    margin-left: 431px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .adventures-text {
+    margin: 0;
+  }
+}
+
+.adventures-list {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures-list {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .adventures-list {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.adventures-list-item-text {
+  color: rgba(246, 245, 239, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  padding: 0 3.5px;
+  width: 273px;
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures-list-item-text {
+    width: 320px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .adventures-list-item-text {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .adventures-text {
+    margin-bottom: 64px;
+  }
+  .button-box {
+    display: flex;
+    margin-top: 32px;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .button-box {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+  .button-box {
+    margin-top: 14px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .adventure-title-gray {
+    font-style: italic;
+  }
+}
+
+.reviews-block {
+  border-radius: 24px;
+  background: var(--blue);
+  width: 384px;
+  height: 282px;
+  padding: 32px;
+}
+
+.reviews-name {
+  color: #f6f5ef;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .reviews-block {
+    display: flex;
+    width: 344px;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+  .reviews-block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 335px;
+    height: auto;
+    border-radius: 24px;
+    background: rgb(31, 33, 45);
+    padding: 24px;
+  }
+
+  .reviews-name {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 18px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .reviews-block {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+.gallery-reviews {
+  position: relative;
+  padding-bottom: 67px;
+}
+.gallery-reviews .swiper-scrollbar {
+  display: none;
+}
+.gallery-reviews .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: #1f212d;
+  opacity: 1;
+}
+.gallery-reviews .swiper-pagination-bullet-active {
+  background-color: #88b3b9;
+}
+.gallery-reviews .swiper-pagination {
+  top: unset;
+  bottom: 35px;
+}

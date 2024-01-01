@@ -1,0 +1,221 @@
+.about-section {
+  padding: 40px 0 106px;
+}
+@media only screen and (min-width: 768px) {
+  .about-section {
+    padding: 50px 0 33px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-section {
+    padding: 82px 0;
+  }
+}
+
+.about-container {
+  position: relative;
+}
+
+.about-text-container {
+}
+@media only screen and (min-width: 1280px) {
+  .about-text-container {
+    display: flex;
+    margin-bottom: 64px;
+  }
+}
+
+.about-text {
+  max-width: 335px;
+  color: var(--white, #f6f5ef);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.045em;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .about-text {
+    min-width: 470px;
+    color: var(--white, #f6f5ef);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.045em;
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-text {
+    margin-bottom: 0;
+  }
+}
+
+.about-text-accent {
+  font-family: DMSans-Italic-tp;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2; /* 28.8px */
+  letter-spacing: -0.045em;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 768px) {
+  .about-text-accent {
+    font-family: DMSans-Italic-tp;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.2; /* 38.4px */
+    letter-spacing: -0.045em;
+    background: var(
+      --linear-green,
+      linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.about-description-list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .about-description-list {
+    gap: 32px;
+    width: 400px;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-description-list {
+    margin-bottom: 0;
+  }
+}
+
+.about-description-item {
+  width: calc((100% - 14px) / 2);
+}
+@media only screen and (min-width: 768px) {
+  .about-description-item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+
+.about-description-text {
+  color: var(--white, #f6f5ef);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .about-description-text {
+    color: var(--white, #f6f5ef);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+}
+
+.about-picture-list {
+}
+@media only screen and (min-width: 1280px) {
+  .about-picture-list {
+    position: relative;
+  }
+}
+
+.about-picture-item {
+}
+
+.about-picture-item:first-child {
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .about-picture-item:first-child {
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-picture-item:first-child {
+    width: 533px;
+    height: 473px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about-picture-item:last-child {
+}
+@media only screen and (min-width: 768px) {
+  .about-picture-item:last-child {
+    width: 308px;
+    height: 289px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-picture-item:last-child {
+    position: absolute;
+    width: 308px;
+    height: 289px;
+    top: 254px;
+    left: 0;
+  }
+}
+
+.about-picture {
+}
+
+.about-pic1 {
+}
+
+.about-picture-image {
+}
+
+.about-pic2 {
+}
+
+.about-image3-container {
+  position: absolute;
+  bottom: calc(-20px - 65vw);
+  right: 20px;
+  width: calc((100vw - 40px) * 0.78);
+}
+@media only screen and (min-width: 375px) {
+  .about-image3-container {
+    width: 260px;
+    bottom: -268px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-image3-container {
+    bottom: -155px;
+    right: 136px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-image3-container {
+    bottom: -276px;
+    left: 372px;
+  }
+}
+
+.about-image3 {
+  -webkit-mask-image: linear-gradient(0deg, transparent 0%, #11131f 100%);
+  mask-image: linear-gradient(0deg, transparent 0%, #11131f 100%);
+}

@@ -1,0 +1,100 @@
+<!-- Rent Section -->
+<section class="rent-yacht-section section" id="rent">
+  <div class="rent-container container">
+    <div class="rent-box-all">
+      <!-- Image  -->
+      <div class="rent-box">
+        <h2 class="rent-txt">Rent a yacht now</h2>
+        <div class="rent-pic">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/rent/yacht-desk@1x.webp 1x,
+                ./img/rent/yacht-desk@2x.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./img/rent/yacht-tab@1x.webp 1x,
+                ./img/rent/yacht-tab@2x.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 767.98px)"
+              srcset="
+                ./img/rent/yacht-mob@1x.webp 1x,
+                ./img/rent/yacht-mob@2x.webp 2x
+              "
+            />
+            <img src="./img/rent/yacht.webp" alt="A yacht in the sea" />
+          </picture>
+        </div>
+      </div>
+      <!-- Rent Form -->
+      <div class="rent-form-row-container">
+        <form class="rent-form" id="contactForm">
+          <!-- 1 -->
+          <div class="rent-form-row">
+            <input
+              class="rent-input rent-field"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <label class="rent-lable" for="username">Full name</label>
+          </div>
+          <!-- 2 -->
+          <div class="rent-form-row">
+            <input
+              class="rent-input rent-field"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <label class="rent-lable" for="email">Email</label>
+          </div>
+          <!-- 3 -->
+          <div class="rent-form-row">
+            <input
+              class="rent-input rent-field"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+            <label class="rent-lable" for="phone">Phone number</label>
+          </div>
+          <!-- 4 -->
+          <div class="rent-form-row textarea">
+            <textarea
+              class="rent-textarea rent-field"
+              id="comments"
+              name="comments"
+              rows="3"
+              placeholder=""
+            ></textarea>
+            <label class="rent-lable" for="comments">Comment</label>
+          </div>
+          <!-- Button -->
+          <button
+            class="rent-btn rent-button-flex js-open-modal"
+            data-modal="1"
+            type="submit"
+          >
+            Send
+            <svg class="rent-button-icon" width="18" height="9">
+              <use href="./img/icons.svg#arrow-right"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Spot on bg -->
+    <div class="rent-spot"></div>
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<!-- Modal window -->
+<div class="modal" data-modal="1">
+  <button class="rent-modal-btn js-modal-close" type="button">
+    <svg class="rent-modal-close" width="20" height="20">
+      <use href="./img/icons.svg#close"></use>
+    </svg>
+  </button>
+
+  <div class="rent-modal-pic">
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/modal/modal-yacht-tab@1x.webp 1x,
+          ./img/modal/modal-yacht-tab@2x.webp 2x
+        "
+      />
+      <source
+        media="(max-width: 767.98px)"
+        srcset="
+          ./img/modal/modal-yacht-mob@1x.webp 1x,
+          ./img/modal/modal-yacht-mob@2x.webp 2x
+        "
+      />
+      <img src="./img/modal/modal-yacht.webp" alt="A yacht" />
+    </picture>
+  </div>
+
+  <h2 class="rent-modal-title">Thank you</h2>
+  <p class="rent-modal-txt">
+    Thank you for choosing Yacht Adventures, your booking details have been
+    received and our team will be in touch shortly to confirm your reservation
+    and provide any additional information or assistance you may need.
+  </p>
+</div>
